@@ -24,16 +24,16 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-header .logo span{
-    color:#FFA500;
+.logo img{
+    max-width: 135px;
 }
 .btn{
-    background-image: linear-gradient(#FFA500,#FFD447);
-    color: #0D1321;
+    background: linear-gradient(90deg, #FFA500 0%, #FFD447 100%);
+    opacity: 0.8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     border: none;
     padding: 17px 24px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
     cursor: pointer;
     font-weight: bold;
 }
@@ -59,9 +59,12 @@ header .logo span{
 }
 .hero-section-content{
     line-height: 40px;
+
 }
 .hero-section-content h1{
-    font-weight: bold;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 1.2;
 
 }
 .hero-section-content p{
@@ -74,8 +77,10 @@ header .logo span{
     margin-top: 100px;
     text-align: center;
     margin-bottom: 30px;
+    font-size: 32px;
    
 }
+
 
 .about h2,p{
     text-align: center;
@@ -111,13 +116,17 @@ header .logo span{
 .card-container{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 28px;
     justify-content: space-between;
     gap: 10px;  
-    margin: 30px; 
+    margin: 28px; 
   
 
 }
+img{
+    max-width: 300px;
+}
+
 .card{
     background: linear-gradient(#E6EDF9,#9DE5FF);
     padding: 20px;
